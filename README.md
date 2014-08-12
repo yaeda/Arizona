@@ -1,12 +1,29 @@
-# Casper
+# Arizona
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+A fork of Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+## Development
+
+### Update from Casper
+```sh
+$ git remote add casper git@github.com:TryGhost/Casper.git
+$ git fetch casper
+$ git checkout -b casper-update
+$ git merge casper/master
+
+# fix conflicts
+# commit
+# test
+
+$ git checkout master
+$ git merge casper-update
+$ git branch -d casper-update
+```
 
 ## Copyright & License
 
-Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.
+Original Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.
+Modifications Copyright (c) 2014 Takeshi Yaeda - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
