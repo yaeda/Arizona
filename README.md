@@ -2,12 +2,16 @@
 
 A fork of Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
+
 ## Feature
 - 140 characters excerpt (for Japanese)
 - Google Analytics
+- Disqus
+
 
 ## Demo
 [TAKESHI YAEDA](http://blog.kazeor.net/)
+
 
 ## Development
 
