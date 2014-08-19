@@ -1581,8 +1581,15 @@ body:not(.post-template) .post-title {
         line-height: 1.55em;
     }
 
-    .post-date {
+    .author-thumb,
+    .post-meta a {
         display: none;
+    }
+
+    .post-date {
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .post-template .post-header {
