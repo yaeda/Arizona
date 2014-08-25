@@ -792,7 +792,7 @@ body:not(.post-template) .post-title {
     text-transform: uppercase;
     font-size: 1.3rem;
     white-space: nowrap;
-    float: right;
+    color: #9EABB3;
 }
 
 .user-image {
