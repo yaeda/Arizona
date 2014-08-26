@@ -740,7 +740,6 @@ margin on the iframe, cause it breaks stuff. */
 
 body:not(.post-template) .post-title {
     font-size: 4rem;
-    display: inline-block;
 }
 
 .post-title a {
