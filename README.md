@@ -4,6 +4,7 @@ A fork of Casper, the default theme for [Ghost](http://github.com/tryghost/ghost
 
 
 ## Feature
+- Layout for single user (less author info)
 - 140 characters excerpt (for Japanese)
 - Google Analytics
 - Disqus
